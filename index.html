@@ -4,24 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>En Sevdiğim Yemek</title>
+    <style>
+        body{
+            background-color:rgb(240,230,140);
+        }
+        h1{
+            background-color:rgb(255,69,0);
+            width: 150px;
+            border-radius: 8px;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+        }
+        h3{
+            margin: 20px 20px 0px 20px;
+        }
+        p{
+            margin-left: 20px;
+        }
+        span{
+            border-bottom: 2px solid black;
+            margin-left: 20px;
+        }
+        .bilgilendirme{
+            display: flex;
+        }
+    </style>
 </head>
 <body>
-    <!---Başlık--->
-    <h1>Atakan Ak</h1>
-    <!---Alt Başlık-->
-    <h2>Hakkımda</h2>
-    <!--- Hobilerim-->
-    <p>Merhaba Atakan Ak, kitap okumayı ve kod yazmayı severim.Korku hayranıyım.</p>
-
-    <h1>Sevdiğim Diziler</h1>
-    <ol>
-        <li>The Blacklist
+    <header>
+        <nav>
+            <span><h1><a href="https://yemek.com/tarif/kusbasili-pide/">Kuşbaşılı Pide</a></h1></span>
+        </nav>
+    </header>
+    <section>
+        <div class="aciklama">
+            Sofraları güzelleştirecek bir tarif. Bir gün önceden kaldıysa şipşak ısıtılıp kahvaltıda bile yenir ama iyisi mi siz onu akşam yemeğine hazırlayın. Kuşbaşılı pide bol köpüklü ayransız olmaz.
             <br>
-            <img src="/Blacklist.jpg" alt="Blacklist" width="100">
-        </li>
-        <li><a href="https://www.imdb.com/title/tt1632701/?ref_=fn_al_tt_1">Suits</a></li>
-        <li>The Witcher</li>
-    </ol>
+            Onu da unutmayın.
+            <br>
+            Afiyet olsun.
+        </div>
+       <div class="bilgilendirme">
+            <div class="kackisilik">
+                <h3>Kaç Kişilik</h3>
+                <span>2 Kişilik</span>
+            </div>
+            <div class="hazirlanma">
+                <h3>Hazırlanma Süresi</h3>
+                <span>45 Dakika</span>
+            </div>
+            <div class="pisirme">
+                <h3>Pişirme Süresi</h3>
+                <span>25 Dakika</span>
+            </div>
+       </div>
+       <div class="malzemeler">
+           <h3>Hamuru için</h3>
+           <ul>
+               <li><strong>2 su bardağı </strong>un</li>
+               <li><strong>1/2 su bardağı</strong> ılık su</li>
+               <li><strong>1 paket</strong> instant maya</li>
+               <li><strong>1 çay kaşığı</strong> tuz</li>
+           </ul>
+           <h3>İç harcı için</h3>
+           <ul>
+               <li><strong>1 tatlı kaşığı </strong>tereyağı</li>
+               <li><strong>200 gram</strong> kuşbaşı dana eti</li>
+               <li><strong>2 adet</strong> orta boy yeşil biber</li>
+               <li><strong>1 adet</strong> büyük domates</li>
+               <li><strong>1/4 demet</strong> maydanoz(isteğe göre)</li>
+               <li><strong>1/2 çay kaşığı</strong> tuz</li>
+           </ul>
+           <h3>Hamurların kenarına sürmek için</h3>
+           <ul>
+               <li><strong>1 adet </strong>yumurta sarısı</li>
+               <li><strong>1 yemek kaşığı</strong> zeytin yağı</li>
+           </ul>
+           <h3>Üzeri için</h3>
+           <ul>
+               <li><strong>1 su bardağı </strong>rendelenmiş kaşar</li>
+           </ul>
+       </div>
+       <div class="nasilyapilir">
+            <h3>Nasıl Yapılır ?</h3>
+           <ol>
+               <li>Tuz ile harmanladığınız unu mutfak tezgahı üzerine aldıktan sonra orta kısmını havuz gibi açın.</li>
+               <li>Unun orta kısmına aldığınız instant mayayı, azar azar eklediğiniz ılık su ile karıştırdıktan sonra kenar kısımlarda kalan un ile mayayı karıştırmaya başlayın.</li>
+               <li>Kıvam alana kadar yoğurduğunuz hamuru, unlanmış mutfak tezgahı üzerinde avuç içinizle bastırarak yoğurmaya ve mayayı aktif hale getirmeye devam edin.</li>
+               <li>Özleşen hamuru üzerini kapattıktan sonra oda sıcaklığında, 30 dakika kadar bekletin.</li>
+               <li>Pidenin kuşbaşılı iç harcını hazırlamak için; ortadan ikiye kesip, çekirdeklerini çıkardığınız sivri biberleri yarım ay şeklinde doğrayın.</li>
+               <li>Kabuğunu soyduğunuz domatesleri küp şeklinde doğrayıp fazla suyunu süzdürün. Kuşbaşı dana etlerini küçük parçalar halinde doğrayın. Maydanoz yapraklarını incecik kıyın.</li>
+               <li>Tereyağını küçük bir tavada eritin. Küçük parçalar halinde kıydığınız kuşbaşı dana etlerini, hafif bir renk alana kadar kavurun.</li>
+               <li>Aralarda karıştırarak sırasıyla; yarım ay şeklinde doğranmış sivri biber, doğranmış domates, kıyılmış maydanoz ve tuzu katın.</li>
+               <li>Suyunu çekene kadar orta ateşte kavurduğunuz kuşbaşı etli iç harcı ocaktan alın ve soğuması için bir kenarda bekletin.</li>
+               <li>Mayalanan pide hamurunu iki eşit parçaya böldükten sonra her bir hamur bezesini unlanmış mutfak tezgahı üzerinde, bir merdane yardımıyla uzunlamasına açın.</li>
+               <li>Yaklaşık 30 cm. uzunluğunda açtığınız hamur parçalarının orta kısmına iki eşit parçaya böldüğünüz kuşbaşılı iç harcı yayın.</li>
+               <li>Pideleri geniş bir spatula yardımıyla üzerine yağlı kağıt serdiğiniz fırın tepsisine alın. Kabarma paylarını da düşünerek mümkün olduğunca aralıklı yerleştirmeye çalışın.</li>
+               <li>Yumurta sarısı ve zeytinyağını küçük bir kapta karıştırdıktan sonra bir fırça yardımıyla pidelerin üzerine sürün.</li>
+               <li>Üzerlerine rendelenmiş kaşar peyniri serptiğiniz pideleri, önceden ısıtılmış 200 derece fırında 10-12 dakika, üzerleri kızarana kadar pişirin. Fırından çıkan sıcak pideleri keskin bir bıçak yardımıyla dilimledikten sonra sevdiklerinizle paylaşın.</li>
+           </ol>
+       </div>
+       <h2>Afiyet olsun</h2>
+    </section>
 </body>
 </html>
